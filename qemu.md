@@ -28,3 +28,11 @@
    sudo make install
    ```
 
+4. 添加软连接
+
+   ```shell
+   cd /usr/local/src/qemu/bin/
+   sudo ln -s qemu-system-i386 qemu 
+   ```
+
+   
